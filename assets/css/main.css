@@ -23,6 +23,7 @@ body {
   letter-spacing: 2px;
   color: white;
   padding-top: 5rem;
+  transition: .75s;
 }
 
 
