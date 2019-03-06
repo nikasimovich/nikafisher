@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Labud Sans';
+  src: url('../fonts/banglarelli-webfont.woff2') format('woff'), url('../fonts/banglarelli-webfont.woff2')  format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  background-color: #683752;
+  font-family: 'Labud Sans', times;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  color: white;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vmax;
+  text-align: center;
+  z-index: 2;
+  padding-top: 5rem;
+}
+
+a {
+  color: white;
+}
+
+
+a:hover {
+  color: yellow;
+}
+
+.sticker {
+  position: fixed;
+  display: flex;
+  background-color: #1c1322;
+  height: 100px;
+  width: 100px;
+  left: 0;
+  top: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-button {
+
+}
+
+
+.email {
+  margin-top: 5rem;
+  padding: 2rem;
+  border: 3px solid white;
+  font-size: 2vmax;
+}
+
+.email:hover {
+  color: yellow;
+  border: 3px solid yellow;
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 600px) {
+  .container {
+    height: 100vh;
+    padding: 0;
+  }
+}
