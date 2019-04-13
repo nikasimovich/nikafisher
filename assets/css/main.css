@@ -17,7 +17,8 @@
 
 
 body {
-  background-color: #1c1322;
+  /*background-color: #f0f0f0;*/
+  background-color: #676f93;
   font-family: 'Labud Sans', times;
   line-height: 1.6;
   letter-spacing: 2px;
@@ -34,7 +35,6 @@ body {
   align-items: center;
   font-size: 5vmax;
   text-align: center;
-  z-index: 2;
 }
 
 a {
@@ -43,12 +43,7 @@ a {
 
 
 a:hover {
-  color: yellow;
-}
-
-.sticker {
-  position: absolute;
-  z-index: -2;
+  color: #4649AC;
 }
 
 
@@ -60,8 +55,8 @@ a:hover {
 }
 
 .email:hover {
-  color: yellow;
-  border: 3px solid yellow;
+  color: #4649AC;
+  border: 3px solid #4649AC;
   cursor: pointer;
 }
 
@@ -74,4 +69,10 @@ a:hover {
 .labud {
   left: 2%;
   top: 5%;
+}
+
+
+/*p5.js styles*/
+.canvas {
+  z-index: -1;
 }

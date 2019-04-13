@@ -7,7 +7,7 @@
 
 
 body {
-  background-color: #683752;
+  background-color: #676f93;
   font-family: 'Labud Sans', times;
   line-height: 1.6;
   letter-spacing: 2px;
@@ -30,9 +30,8 @@ a {
   color: white;
 }
 
-
 a:hover {
-  color: yellow;
+  color: #4649AC;
 }
 
 .sticker {
