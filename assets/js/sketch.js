@@ -42,7 +42,7 @@ function Circle() {
         fill(color(chooseCol));
         blendMode(LIGHTEST);
         noStroke();
-        ellipse(this.x, this.y, this.diameter,685);
+        ellipse(this.x, this.y, 685, 685);
   }
 
   this.move = function() {
@@ -52,19 +52,17 @@ function Circle() {
 
 }
 
-function mousePressed() {
-  clear();
-  for (i = 0; i < 6; i++) {
-      circles[i] = new Circle();
-    }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 
 $(function() {
   $('a').mouseenter(function() {
-    clear();
-    for (i = 0; i < circles.length; i++) {
-      circles[i].move();
+   clear();
+   for (i = 0; i < 6; i++) {
+       circles[i] = new Circle();
      }
   });
 });
