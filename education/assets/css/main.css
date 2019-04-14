@@ -1,3 +1,7 @@
+::-moz-selection { background: #C7D8DB; }
+::selection { background: #C7D8DB; }
+
+
 @font-face {
   font-family: 'Labud Sans';
   src: url('../fonts/banglarelli-webfont.woff2') format('woff'), url('../fonts/banglarelli-webfont.woff2')  format('woff2');
