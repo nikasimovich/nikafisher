@@ -85,7 +85,7 @@ a:hover {
 }
 
 /* mobile styles*/
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .container {
     align-items: center;
     justify-content: center;
