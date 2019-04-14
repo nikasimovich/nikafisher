@@ -1,3 +1,6 @@
+::-moz-selection { background: #C7D8DB; }
+::selection { background: #C7D8DB; }
+
 
 @font-face {
   font-family: 'Classico';
