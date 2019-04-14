@@ -75,7 +75,18 @@ a:hover {
 }
 
 
+
+
+
 /*p5.js styles*/
 .canvas {
   z-index: -1;
+}
+
+/* mobile styles*/
+@media only screen and (max-width: 600px) {
+  .container {
+    align-items: center;
+    justify-content: center;
+  }
 }
