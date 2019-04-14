@@ -11,12 +11,15 @@ let colors = ["#FAC6E5", // bright pink
 ];
 let i;
 let circles = [];
+let height = Math.max( $(document).height(), document.documentElement.clientHeight);
+
 
 
 function setup() {
-  let canvas = createCanvas($(document).width(), $(document).height());
+  let canvas = createCanvas($(document).width(), height);
   canvas.position(0, 0);
   canvas.class("canvas");
+  windowResized();
 
 for (i = 0; i < 6; i++) {
     circles[i] = new Circle();
@@ -52,9 +55,8 @@ function Circle() {
 
 }
 
-
 function windowResized() {
-  resizeCanvas($(document).width(), $(document).height());
+  resizeCanvas($(document).width(), height);
 }
 
 
