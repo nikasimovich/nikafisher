@@ -33,10 +33,11 @@ body {
 
 .container {
   display: flex;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 5vmax;
+  font-size: 4.5vmax;
   text-align: center;
 }
 
