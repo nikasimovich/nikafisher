@@ -13,15 +13,15 @@ let i;
 let circles = [];
 
 
-
 function setup() {
-  let canvas = createCanvas(windowWidth, windowHeight);
+  let canvas = createCanvas($(document).width(), $(document).height());
   canvas.position(0, 0);
   canvas.class("canvas");
 
 for (i = 0; i < 6; i++) {
     circles[i] = new Circle();
   }
+  noLoop();
 }
 
 function draw() {
@@ -54,13 +54,14 @@ function Circle() {
 
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas($(document).width(), $(document).height());
 }
 
 
 $(function() {
   $('a').mouseenter(function() {
    clear();
+   redraw();
    for (i = 0; i < 6; i++) {
        circles[i] = new Circle();
      }
