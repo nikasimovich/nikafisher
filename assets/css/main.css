@@ -24,8 +24,8 @@ body {
   letter-spacing: .5px;
 }
 
-::-moz-selection { background: #ff00ff; }
-::selection { background: #ff00ff; }
+::-moz-selection { background: #e8daff; }
+::selection { background: #e8daff; }
 
 
 .contact-item {
@@ -98,6 +98,10 @@ a {
   margin: 10px auto 0 auto;
 }
 
+.video {
+  background-color: #e8daff;
+}
+
 
 @media only screen and (max-width: 600px) {
   body {
@@ -118,8 +122,7 @@ a {
     width: 100%;
   }
 
-  .small {
-    width: 75%;
+  .small, .med-small, .medium {
+    width: 100%;
   }
 }
-
