@@ -18,25 +18,28 @@
 
 body {
   /*background-color: #f0f0f0;*/
-  font-family: 'Labud Sans', times;
-  line-height: 1.6;
-  letter-spacing: 1px;
+  font-family: 'Classico', times;
+  font-size: 24px;
+  line-height: 1.7;
+  letter-spacing: .5px;
 }
 
+::-moz-selection { background: #ff00ff; }
+::selection { background: #ff00ff; }
 
-.contact {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  position: sticky;
-  top: 20px;
-  margin-top: 2em;
-}
 
 .contact-item {
-  display: flex;
+  position: fixed;
+  top: 30px;
 }
 
+.contact-item--left {
+  left: 30px;
+}
+
+.contact-item--right {
+  right: 30px;
+}
 
 .project-container {
   max-width: 1500px;
@@ -64,8 +67,6 @@ body {
 }
 
 .info {
-  font-size: 20px;
-  line-height: 1.7;
   max-width: 900px;
   margin: 3em auto 3em auto;
 }
@@ -96,3 +97,16 @@ a {
   flex-direction: column;
   margin: 10px auto 0 auto;
 }
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 22px;
+  }
+
+  .info {
+    margin: 125px 0 60px 0;
+    padding: 0 30px;
+  }
+}
+
