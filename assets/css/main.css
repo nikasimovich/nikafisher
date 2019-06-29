@@ -1,6 +1,3 @@
-::-moz-selection { background: #C7D8DB; }
-::selection { background: #C7D8DB; }
-
 
 @font-face {
   font-family: 'Classico';
@@ -21,72 +18,81 @@
 
 body {
   /*background-color: #f0f0f0;*/
-  background-color: #393462;
   font-family: 'Labud Sans', times;
   line-height: 1.6;
-  letter-spacing: 2px;
-  color: white;
-  padding-top: 5rem;
-  transition: .75s;
+  letter-spacing: 1px;
 }
 
 
-.container {
+.contact {
   display: flex;
-  height: 100vh;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 4.5vmax;
-  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+  position: sticky;
+  top: 20px;
+  margin-top: 2em;
 }
+
+.contact-item {
+  display: flex;
+}
+
+
+.project-container {
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.large {
+  width: 100%;
+}
+
+.medium {
+  width: 75%;
+}
+
+.small {
+  width: 25%;
+}
+
+.med-small {
+  width: 50%;
+}
+
+.info {
+  font-size: 20px;
+  line-height: 1.7;
+  max-width: 900px;
+  margin: 3em auto 3em auto;
+}
+
+
+.item {
+  display: flex;
+  margin: auto auto 10em auto;
+}
+
 
 a {
-  color: white;
+  color: black;
 }
 
-
-a:hover {
-  color: #4649AC;
+.grid {
+  display: flex;
+  min-height: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto auto 10em auto;
 }
 
-
-.email {
-  margin-top: 5rem;
-  padding: 2rem;
-  border: 3px solid white;
-  font-size: 2vmax;
-}
-
-.email:hover {
-  color: #4649AC;
-  border: 3px solid #4649AC;
-  cursor: pointer;
-}
-
-.teaching-portal {
-  right: 15%;
-  bottom: 0;
-  height: 500px;
-}
-
-.labud {
-  left: 2%;
-  top: 5%;
-}
-
-
-
-
-
-/*p5.js styles*/
-.canvas {
-  z-index: -1;
-}
-
-/* mobile styles*/
-@media (max-width: 600px) {
-  .container {
-    height: 100vh;
-  }
+.grid-item {
+  display: flex;
+  flex-basis: calc(50% - 10px);
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px auto 0 auto;
 }
