@@ -110,8 +110,16 @@ a {
     padding: 0 30px;
   }
 
-  img {
+  .grid {
+    flex-direction: column;
+  }
+
+  .grid-item {
     width: 100%;
+  }
+
+  .small {
+    width: 75%;
   }
 }
 
