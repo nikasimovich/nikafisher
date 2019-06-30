@@ -68,7 +68,7 @@ body {
 
 .info {
   max-width: 900px;
-  margin: 3em auto 3em auto;
+  margin: 5em auto 3em auto;
 }
 
 
@@ -125,4 +125,9 @@ a {
   .small, .med-small, .medium {
     width: 100%;
   }
+}
+
+
+footer {
+  text-align: center;
 }
