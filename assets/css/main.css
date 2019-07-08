@@ -32,8 +32,8 @@ a {
 
 a:hover {
   cursor: ne-resize;
-  -webkit-filter: saturate(3);
-  filter: saturate(3);
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
 }
 
 .info a:hover {
