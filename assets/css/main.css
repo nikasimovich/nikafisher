@@ -24,6 +24,29 @@ body {
   letter-spacing: .5px;
 }
 
+a {
+  -webkit-transition: all 500ms ease-in-out; /* Safari prior 6.1 */
+  transition: all 500ms ease-in-out;
+}
+
+
+a:hover {
+  cursor: ne-resize;
+  -webkit-filter: saturate(3);
+  filter: saturate(3);
+}
+
+.info a:hover {
+  cursor: ne-resize;
+  filter: none;
+  color: blue;
+}
+
+.info a {
+  transition: none;
+}
+
+
 ::-moz-selection { background: #e8daff; }
 ::selection { background: #e8daff; }
 
