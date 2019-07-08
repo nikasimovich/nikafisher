@@ -24,16 +24,9 @@ body {
   letter-spacing: .5px;
 }
 
-a {
-  -webkit-transition: all 500ms ease-in-out; /* Safari prior 6.1 */
-  transition: all 500ms ease-in-out;
-}
-
 
 a:hover {
   cursor: ne-resize;
-  -webkit-filter: blur(2px);
-  filter: blur(2px);
 }
 
 .info a:hover {
