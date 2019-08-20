@@ -15,13 +15,36 @@ body {
   line-height: 1.5;
   letter-spacing: .5px;
 }
+h2 {
+  font-weight: normal;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+}
+
+.semester {
+  margin-bottom: 50px;
+}
+
+.semester-featured {
+  margin-bottom: 100px;
+}
 
 
 a:hover {
   cursor: ne-resize;
 }
 
-.info a:hover {
+.contact a {
+  text-decoration: none;
+}
+
+
+.info a:hover, .contact a:hover, footer a:hover {
   cursor: ne-resize;
   filter: none;
   color: blue;
