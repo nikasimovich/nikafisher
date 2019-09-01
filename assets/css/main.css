@@ -26,6 +26,11 @@ h4 {
   margin-bottom: 15px;
 }
 
+.caption {
+  font-size: 12px;
+  font-family: arial;
+}
+
 .semester {
   margin-bottom: 50px;
 }
@@ -97,6 +102,10 @@ a:hover {
   width: 25%;
 }
 
+.tiny {
+  width: 15%;
+}
+
 .med-small {
   width: 50%;
 }
@@ -123,6 +132,11 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   margin: auto auto 10em auto;
+}
+
+.nowrap {
+  flex-wrap: nowrap;
+  margin: auto auto 1em auto;
 }
 
 .grid-item {
@@ -165,4 +179,22 @@ a {
 
 footer {
   text-align: center;
+}
+
+
+.white a {
+  color: white;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.black a {
+  color: white;
+}
+
+.pod {
+ margin: 3em auto 10em auto;
 }

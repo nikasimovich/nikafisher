@@ -1,16 +1,7 @@
 
 @font-face {
-  font-family: 'Classico';
-  src: url('../fonts/ClassicoURW-Med.eot?#iefix') format('embedded-opentype'),  url('../fonts/ClassicoURW-Med.otf')  format('opentype'),
-       url('../fonts/ClassicoURW-Med.woff') format('woff'), url('../fonts/ClassicoURW-Med.ttf')  format('truetype'), url('../fonts/ClassicoURW-Med.svg#ClassicoURW-Med') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: 'Labud Sans';
-  src: url('../fonts/banglarelli-webfont.woff2') format('woff'), url('../fonts/banglarelli-webfont.woff2')  format('woff2');
+  font-family: 'ivar';
+  src: url('../fonts/IvarSoft-Regular.woff') format('woff'), url('../fonts/IvarSoft-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -18,7 +9,7 @@
 
 body {
   /*background-color: #f0f0f0;*/
-  font-family: 'Classico', times;
+  font-family: 'ivar', times;
   font-size: 24px;
   line-height: 1.7;
   letter-spacing: .5px;
@@ -26,8 +17,38 @@ body {
   background-color: black;
 }
 
+
 ::-moz-selection { background: #e8daff; }
 ::selection { background: #e8daff; }
+
+h1, h2 {
+  font-weight: normal;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+}
+
+
+
+
+.contact a:hover, footer a:hover {
+  cursor: ne-resize;
+  filter: none;
+  color: blue;
+}
+
+.contact a {
+  transition: none;
+  text-decoration: none;
+}
+
+.white a{
+  color: white;
+}
 
 
 .contact-item {
