@@ -1,0 +1,66 @@
+img {
+  position: absolute;
+  width: 100%;
+}
+
+
+svg {
+  position: absolute;
+  width: 100%;
+
+}
+
+body {
+padding: 0;
+margin: 0;
+/* background-color: #130b37;*/
+ /*background-color: #039FFF;*/
+}
+
+svg#i5_r {
+    /*transform: rotate(12deg);*/
+    /*margin-left:200px;*/
+}
+
+svg#i5_g {
+    /*transform: rotate(-12deg);*/
+    /*margin-top: 100px;*/
+}
+
+svg#i5_b {
+    /*transform: rotate(-12deg);*/
+/*    margin-top: 200px;
+    margin-left: 100px;*/
+}
+
+.svg-wrapper {
+  position: relative;
+  height: 100vmax;
+}
+
+.svg-wrapper + .svg-wrapper {
+  margin-top: 10vh;
+}
+
+
+svg#i1_g {
+    /*margin-left: -200px;*/
+}
+
+svg#i1_b {
+    /*margin-top: 100px;*/
+}
+
+
+
+svg.r path {
+    fill: red;
+}
+
+svg.g path {
+    fill: lime;
+}
+
+svg.b path {
+    fill: #31deff;
+}
