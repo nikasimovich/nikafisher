@@ -1,0 +1,48 @@
+@font-face {
+  font-family: monumentGrotesk;
+  src: url(assets/fonts/MonumentGrotesk-Medium.woff),
+  url(assets/fonts/MonumentGrotesk-Medium.woff2);
+}
+
+
+body {
+  background-color: #381c64;
+  font-family: monumentGrotesk;
+  color: white;
+}
+
+img {
+    max-width: 90%;
+    position: absolute;
+    top: -100px;
+    z-index: -2;
+}
+
+
+h1 {
+  font-size: 12vmax;
+  letter-spacing: 1px;
+  line-height: .8;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+/*
+font-size: 12vmax;
+    letter-spacing: 1px;
+    line-height: .8;
+    font-weight: normal;
+    position: fixed;
+    top: 40%;
+    left: 80vh;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    text-align: center;
+*/
