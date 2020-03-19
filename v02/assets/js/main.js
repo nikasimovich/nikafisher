@@ -1,10 +1,15 @@
 $(function() {
   var $carousel = $('.main-carousel');
-  var $firstSlide = $carousel.find('.carousel-cell').first();
+  var $slides = $carousel.find('.carousel-cell');
+  var slideLength = $slides.length;
+  var $firstSlide = $slides.first();
   var $caption = $('.caption');
+  var $counter = $('.counter');
   var $videos = $carousel.find('video');
   var $backgroundEven = $('.background-element--even');
   var $backgroundOdd = $('.background-element--odd');
+  var $carouselNavPrevious = $('.carousel-nav--previous');
+  var $carouselNavNext = $('.carousel-nav--next');
 
   $carousel.flickity({
     // Options go here
@@ -43,6 +48,8 @@ $(function() {
       $backgroundOdd.css('background', background).addClass('active');
       $backgroundEven.removeClass('active');
     }
+
+    $counter.html((index + 1) + ' / ' + slideLength);
   };
 
   $carousel.on( 'select.flickity', function() {
@@ -66,6 +73,13 @@ $(function() {
     }
   });
 
+  $carouselNavPrevious.on('click', function() {
+    $carousel.flickity('previous').focus();
+  });
+
+  $carouselNavNext.on('click', function() {
+    $carousel.flickity('next').focus();
+  });
 
   slideCallback($firstSlide, 0);
 });
