@@ -52,7 +52,8 @@ $(function() {
   });
 
   $carousel.on( 'staticClick.flickity', function() {
-    var $video = $(this).find('video');
+    var $slide = $(flkty.selectedElement);
+    var $video = $slide.find('video');
 
     if ( !$video.length ) return;
 
