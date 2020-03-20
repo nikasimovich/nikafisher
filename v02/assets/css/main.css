@@ -84,12 +84,22 @@ span.caps {
 
 .carousel-nav--previous {
   left: 0;
-  cursor: url('../../imgs/carousel-arrow-previous.png') 20 14, auto;
+  /*cursor: url('../../imgs/carousel-arrow-previous.png') 20 8, auto;*/
+  cursor: url('../../imgs/carousel-arrow-previous.png'), auto;
+  cursor: -webkit-image-set(
+    url('../../imgs/carousel-arrow-previous.png') 1x,
+    url('../../imgs/carousel-arrow-previous_hi.png') 2x
+  ), auto;
 }
 
 .carousel-nav--next {
   right: 0;
-  cursor: url('../../imgs/carousel-arrow-next.png') 20 14, auto;
+  /*cursor: url('../../imgs/carousel-arrow-next.png') 20 14, auto;*/
+  cursor: url('../../imgs/carousel-arrow-next.png'), auto;
+  cursor: -webkit-image-set(
+    url('../../imgs/carousel-arrow-next.png') 1x,
+    url('../../imgs/carousel-arrow-next_hi.png') 2x
+  ), auto;
 }
 
 body {
