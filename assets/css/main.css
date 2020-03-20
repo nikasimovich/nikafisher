@@ -243,6 +243,10 @@ a.about {
     top: 90vh;
   }
 
+  .caption {
+    max-width: 320px;
+  }
+
   .carousel-cell {
       width: 90%;
       margin: 0 5vw;
