@@ -232,3 +232,19 @@ h1, h2, h4 {
 a.about {
     border: 0;
 }
+
+
+
+@media (max-width: 560px) {
+  .counter {
+    font-size: 20px;
+  }
+  .caption, .counter {
+    top: 90vh;
+  }
+
+  .carousel-cell {
+      width: 90%;
+      margin: 0 5vw;
+  }
+}
