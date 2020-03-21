@@ -217,7 +217,7 @@ a {
 
 .caption {
   margin: 0;
-  padding: 0 20px 20px;
+  padding: 0 80px 20px 20px;
   text-align: left;
   z-index: 10;
   position: absolute;
@@ -351,5 +351,9 @@ a.about {
 
     .column {
       line-height: 1.25;
+    }
+
+    .carousel-nav {
+      display: none;
     }
 }
