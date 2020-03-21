@@ -26,6 +26,32 @@ a:hover {
   display: none;
 }
 
+h2 span {
+  background-color: #e8daff;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+hr {
+  border: 1px solid blue;
+  margin: 50px 0;
+}
+
+.semester {
+  margin-bottom: 100px;
+}
+
+.education {
+  line-height: 1.5;
+}
 
 /*type sizes*/
 
