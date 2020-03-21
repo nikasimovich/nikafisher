@@ -316,6 +316,7 @@ a.about {
 
   .caption {
     max-width: 320px;
+    padding-right: 20px;
   }
 
   .carousel-cell {
