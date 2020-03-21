@@ -6,6 +6,14 @@
   font-style: normal;
 }
 
+
+@font-face {
+  font-family: 'ziggy';
+  src: url('../fonts/ZiggyITCTT.woff') format('woff'), url('../fonts/ZiggyITCTT.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 ::selection { background: #e8daff; }
 
 a:hover {
@@ -23,6 +31,33 @@ a:hover {
 
 .large {
   font-size: 40px;
+}
+
+.dropcap {
+  font-family: "ziggy", serif;
+  line-height: 69px;
+  padding-top: 2px;
+  padding-right: 22px;
+  padding-left: 10px;
+  float: left;
+  font-size: 84px;
+}
+
+.special {
+  font-family: "ziggy", serif;
+      font-size: 36px;
+      letter-spacing:.5px;
+      margin-top: -147px;
+      padding-bottom: 99px;
+      text-shadow: 2px 1px #000;
+      color: #e8daff;
+      /* color: black; */
+      transform: rotate(12deg);
+}
+
+.special:hover {
+  color: blue;
+  text-shadow: 2px 1px #e8daff;
 }
 
 .medium {
@@ -144,7 +179,7 @@ a {
 .caption {
   margin: 0;
   padding: 0 20px 20px;
-  text-align: centerm;
+  text-align: left;
   z-index: 10;
   position: absolute;
   top: 100vh;
@@ -159,7 +194,8 @@ a {
   top: 100vh;
   right: 0;
   transform: translateY(-100%);
-  font-size: 60px;
+  font-size: 70px;
+  font-family: "ziggy";
 }
 
 /*
@@ -237,7 +273,7 @@ a.about {
 
 @media (max-width: 560px) {
   .counter {
-    font-size: 20px;
+    font-size: 30px;
   }
   .caption, .counter {
     top: 90vh;
@@ -251,4 +287,26 @@ a.about {
       width: 90%;
       margin: 0 5vw;
   }
+
+  .info {
+    font-size: 31px;
+  }
+
+  .about {
+    max-width: 50%;
+  }
+
+  .special {
+    margin-top:-110px;
+    transform: rotate(20deg);
+    font-size: 32px;
+    }
+
+    .row {
+      display: inherit;
+    }
+
+    .column {
+      line-height: 1.25;
+    }
 }
