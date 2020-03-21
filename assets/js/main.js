@@ -82,4 +82,16 @@ $(function() {
   });
 
   slideCallback($firstSlide, 0);
+
+  var $maxHeightElements = $('.vh-size');
+  var setMaxHeight = function() {
+    $maxHeightElements.css({ height: window.innerHeight });
+  };
+
+  // Set height in javascript to avoid VH issues on mobile devices
+  $(window).on('resize', function() {
+    setMaxHeight();
+  });
+
+  setMaxHeight();
 });

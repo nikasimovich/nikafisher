@@ -71,14 +71,14 @@ hr {
 
 .special {
   font-family: "ziggy", serif;
-      font-size: 36px;
-      letter-spacing:.5px;
-      margin-top: -147px;
-      padding-bottom: 99px;
-      text-shadow: 2px 1px #000;
-      color: #e8daff;
-      /* color: black; */
-      transform: rotate(12deg);
+  font-size: 36px;
+  letter-spacing:.5px;
+  margin-top: -147px;
+  padding-bottom: 99px;
+  text-shadow: 2px 1px #000;
+  color: #e8daff;
+  /* color: black; */
+  transform: rotate(12deg);
 }
 
 .special:hover {
@@ -107,7 +107,7 @@ span.caps {
 
 .main-carousel,
 .carousel-cell {
-  height: 100vh;
+  height: 100%;
 }
 
 .main-carousel {
@@ -115,6 +115,10 @@ span.caps {
   top: 0;
   left: 0;
   width: 100%;
+}
+
+.main-carousel .flickity-viewport {
+  height: 100% !important;
 }
 
 .carousel-cell {
@@ -141,7 +145,7 @@ span.caps {
   top: 0;
   z-index: 2;
   width: 30%;
-  height: 100vh;
+  height: 100%;
 }
 
 .carousel-nav--previous {
@@ -166,6 +170,14 @@ span.caps {
 
 body {
   font-family: "ivar";
+}
+
+.hero-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
 }
 
 .title {
@@ -209,7 +221,7 @@ a {
   text-align: left;
   z-index: 10;
   position: absolute;
-  top: 100vh;
+  top: 100%;
   left: 0;
   transform: translateY(-100%);
 }
@@ -218,7 +230,7 @@ a {
   position: absolute;
   z-index: 10;
   padding: 20px;
-  top: 100vh;
+  top: 100%;
   right: 0;
   transform: translateY(-100%);
   font-size: 70px;
@@ -228,9 +240,9 @@ a {
 /*
 about page*/
 .info {
-    font-size: 40px;
-    max-width: 1000px;
-    margin: 3em auto 1em auto;
+  font-size: 40px;
+  max-width: 1000px;
+  margin: 3em auto 1em auto;
 }
 
 
@@ -238,7 +250,6 @@ about page*/
   max-width: 30%;
   cursor: zoom-in;;
 }
-
 
 .row {
   display: flex;
@@ -302,9 +313,6 @@ a.about {
   .counter {
     font-size: 30px;
   }
-  .caption, .counter {
-    top: 90vh;
-  }
 
   .caption {
     max-width: 320px;
@@ -319,8 +327,16 @@ a.about {
     font-size: 31px;
   }
 
+  .about-wrapper {
+    overflow: hidden;
+  }
+
   .about {
     max-width: 50%;
+  }
+
+  .about--img {
+    margin-top: 50px;
   }
 
   .special {
