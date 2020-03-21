@@ -336,4 +336,8 @@ a.about {
     .column {
       line-height: 1.25;
     }
+
+    carousel-nav carousel-nav--previous. carousel-nav carousel-nav--next {
+      display: none;
+    }
 }
