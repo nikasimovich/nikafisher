@@ -354,6 +354,6 @@ a.about {
     }
 
     .carousel-nav {
-      display: none;
+      width: 50%;
     }
 }
