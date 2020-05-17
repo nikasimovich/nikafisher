@@ -95,7 +95,7 @@ hr {
 }
 
 .small {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .caps {
@@ -228,6 +228,7 @@ a {
   top: 100%;
   left: 0;
   transform: translateY(-100%);
+  font-size: 14px;
 }
 
 .counter {
