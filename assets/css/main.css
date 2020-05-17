@@ -36,7 +36,7 @@ h2 {
 
 h4 {
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 32px;
   margin-left: 50px;
 }
 
@@ -47,6 +47,10 @@ hr {
 
 .semester {
   margin-bottom: 100px;
+}
+
+.semester-featured, .semester {
+    line-height: 1.8;
 }
 
 .education {
@@ -240,7 +244,7 @@ a {
 /*
 about page*/
 .info {
-  font-size: 40px;
+  font-size: 32px;
   max-width: 1000px;
   margin: 3em auto 1em auto;
 }
