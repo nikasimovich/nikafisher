@@ -31,7 +31,7 @@ h2 span {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 32px;
 }
 
 h4 {
@@ -87,17 +87,17 @@ hr {
 }
 
 .medium {
-  font-size: 28px;
+  font-size: 18px;
 }
 
 .small {
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .caps {
   text-transform: uppercase;
   letter-spacing: .5px;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 span.caps {
