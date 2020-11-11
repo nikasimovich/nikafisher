@@ -94,9 +94,9 @@ hr {
   font-size: 18px;
 }
 
-.small {
+/*.small {
   font-size: 13px;
-}
+}*/
 
 .caps {
   text-transform: uppercase;
@@ -185,8 +185,8 @@ body {
 }
 
 .title {
-  text-transform: uppercase;
-  letter-spacing: .5px;
+/*  text-transform: uppercase;
+  letter-spacing: .5px;*/
   display: flex;
   align-items: center;
   padding: 20px 20px 0;
@@ -209,6 +209,7 @@ a {
 
 .title a {
   border-bottom-color: transparent;
+  margin-right: 20px;
 }
 
 .title a:hover {
@@ -363,4 +364,12 @@ a.about {
     .carousel-nav {
       width: 50%;
     }
+}
+
+.special-link {
+  color: blue;
+}
+
+.special-link:hover {
+  color: black;
 }
