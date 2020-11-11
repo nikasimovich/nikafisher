@@ -140,6 +140,10 @@ span.caps {
   filter: drop-shadow(7px 8px 17px rgba(0, 0, 0, 0.2));
 }
 
+.no-shadow {
+  filter: none;
+}
+
 .carousel-cell video {
   object-fit: contain;
   width: 100%;
