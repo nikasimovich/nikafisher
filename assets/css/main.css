@@ -132,9 +132,10 @@ span.caps {
   background-position: center center;
   background-repeat: no-repeat;
   z-index: 1;
+  transform: translate3d(0, 0, 0);
 }
 
-.carousel-cell:not(.carousel-cell--video) {
+.carousel-cell {
   filter: drop-shadow(7px 8px 17px rgba(0, 0, 0, 0.2));
 }
 
@@ -222,14 +223,13 @@ a {
 
 .caption {
   margin: 0;
-  padding: 0 80px 20px 20px;
+  padding: 0 195px 20px 20px;
   text-align: left;
   z-index: 10;
   position: absolute;
   top: 100%;
   left: 0;
   transform: translateY(-100%);
-  font-size: 14px;
 }
 
 .counter {
@@ -323,7 +323,7 @@ a.about {
 
   .caption {
     max-width: 320px;
-    padding-right: 20px;
+    padding-right: 105px;
   }
 
   .carousel-cell {

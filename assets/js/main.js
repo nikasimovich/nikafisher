@@ -25,13 +25,13 @@ $(function() {
     var $otherVideos = $videos.not( $video );
     var background = $slide.attr('data-bg-style');
 
-    $caption.text( $slide.attr('data-caption') );
+    $caption.html( $slide.attr('data-caption') );
 
     $otherVideos.each(function() {
       this.pause();
     });
 
-    $caption.text( $slide.attr('data-caption') );
+    $caption.html( $slide.attr('data-caption') );
 
     if ( $video.length ) {
       var video = $video.get(0);
