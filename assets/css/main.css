@@ -341,7 +341,11 @@ a.about {
   }
 
   .info {
-    font-size: 18px;
+    font-size: 22px;
+  }
+
+  .blurb, h2, h4 {
+    font-size: 28px;
   }
 
   .about-wrapper {
