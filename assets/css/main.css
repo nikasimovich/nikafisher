@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Scrittura';
+    src: url('Scrittura.woff2') format('woff2'),
+        url('Scrittura.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 @font-face {
   font-family: 'ivar';
@@ -246,6 +255,8 @@ a {
   transform: translateY(-100%);
   font-size: 70px;
   font-family: "ziggy";
+/*  font-family: "Scrittura";
+  letter-spacing: -10px;*/
 }
 
 /*
