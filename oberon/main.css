@@ -1,0 +1,67 @@
+body {
+  background-color: #dfe5dc;
+  font-family: 'Literata', serif;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;  
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+h1 {
+  margin-bottom: 0;
+  letter-spacing: 3px;
+}
+
+h2 {
+  margin-top: 0;
+  letter-spacing: 3px;
+}
+
+h3 {
+  margin-top: 0;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+}
+
+h6 {
+  letter-spacing: 3px;
+}
+
+h6 span {
+  color: #e5cbeb;
+  background: #617557;
+}
+
+p {
+  margin-top: 0;
+}
+
+img {
+  width: 70%;
+  mix-blend-mode: multiply;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #e5cbeb;
+  background: #617557;
+}
+
+::selection {
+  color: #e5cbeb;
+  background: #617557;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+}
