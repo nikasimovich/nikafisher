@@ -1,6 +1,6 @@
 let flowers = ["flower1.svg", "flower2.svg", "flower3.svg", "flower4.svg", "flower5.svg", "flower6.svg", "flower7.svg", "flower8.svg", "flower9.svg"]
 
-let bgcolors = ["#83918b", "#898989", "#ab93b9", "#c0a63e", "#a2d1e4", "#fbe3ff", "#acadd4", "#f1f1f1", "#83a261", "#faffca"]
+let bgcolors = ["#83918b", "#898989", "#ab93b9", "#c0a63e", "#a2d1e4", "#fbe3ff", "#acadd4", "#B0AC94","#f1f1f1", "#83a261", "#faffca", "#B69494", "#A55840"]
 
 
 let container = document.querySelector(".flowercontainer");
@@ -10,7 +10,7 @@ let heading = document.querySelector(".heading");
 let highlights = document.querySelectorAll(".highlighted");
 let navlinks = document.querySelectorAll("nav a");
 let randFlower = flowers[Math.floor(Math.random()*flowers.length)];
-let randBg = bgcolors[Math.floor(Math.random()*(flowers.length-1))];
+let randBg = bgcolors[Math.floor(Math.random()*(bgcolors.length-1))];
 
 // Set custom css property on document root
 document.documentElement.style.setProperty('--bg-color', randBg);

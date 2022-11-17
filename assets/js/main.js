@@ -9,7 +9,7 @@ let heading = document.querySelector(".heading");
 let highlights = document.querySelectorAll(".highlighted");
 let navlinks = document.querySelectorAll("nav a");
 let randFlower = flowers[Math.floor(Math.random()*flowers.length)];
-let randBg = bgcolors[Math.floor(Math.random()*(flowers.length-1))];
+let randBg = bgcolors[Math.floor(Math.random()*(bgcolors.length-1))];
 
 // Set custom css property on document root
 document.documentElement.style.setProperty('--bg-color', randBg);
