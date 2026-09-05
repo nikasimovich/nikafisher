@@ -27,6 +27,11 @@ svg path {
     fill: red;
 }
 
+
+.smallimg {
+    width:20%;
+}
+
 .flower {
     height: 100%;
         background-position: center;
