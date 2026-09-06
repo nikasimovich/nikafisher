@@ -130,9 +130,8 @@ max-width: 100%;
 }
 
 .flowerFooter {
-    height: 20%;
-    /*background-position: center;*/
-    /* background-size: cover; */
+    height: 100%;
+    width: 100%;
     background-repeat: repeat;
     background-attachment: fixed;
 }
@@ -215,6 +214,10 @@ span {
 @media (max-width: 600px) {
      body {
         font-size: 22px;
+    }
+
+    .smallimg {
+        width:100%;
     }
 
     .heading a {
