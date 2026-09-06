@@ -213,22 +213,23 @@ span {
 }
 
 @media (max-width: 600px) {
-    body {
+     body {
         font-size: 22px;
     }
 
     .heading a {
-        font-size: 30px;
+        font-size: 33px;
     }
 
     .headingTwo {
-        font-size: 21px;
+        font-size: 23px;
     }
 
-    nav a {
-        font-size: 18px;
+    /* ONLY email, Writing, Design, Teaching, Speaking */
+    nav > a {
+        font-size: 19px;
         display: inline-block;
-        margin-top: 5px;
+        margin-bottom: 10px;
     }
 
     .caption {
