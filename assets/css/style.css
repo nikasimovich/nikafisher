@@ -211,3 +211,29 @@ span {
   color: var(--bg-color);
   background-color: black;
 }
+
+@media (max-width: 600px) {
+    body {
+        font-size: 22px;
+    }
+
+    .heading a {
+        font-size: 33px;
+    }
+
+    .headingTwo {
+        font-size: 23px;
+    }
+
+    nav a {
+        font-size: 19px;
+    }
+
+    .caption {
+        font-size: 12px;
+    }
+
+    .wrapper {
+        padding: 24px;
+    }
+}
