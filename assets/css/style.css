@@ -218,15 +218,17 @@ span {
     }
 
     .heading a {
-        font-size: 33px;
+        font-size: 30px;
     }
 
     .headingTwo {
-        font-size: 23px;
+        font-size: 21px;
     }
 
     nav a {
-        font-size: 19px;
+        font-size: 18px;
+        display: inline-block;
+        margin-top: 5px;
     }
 
     .caption {
